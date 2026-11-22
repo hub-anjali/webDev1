@@ -1,0 +1,112 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+  width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 240, 237);
+    background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-wallpaper-spring-flowers-mountain-sunset-free-image.jpg?w=2210&quality=70);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation:background 5s ease-in-out 0s infinite ;
+}
+.img2{
+    width:350px;
+    height:350px;
+    border:5px solid black;
+ position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.img1{
+    width:350px;
+    height:350px;
+    border:5px solid black;
+ position: fixed;
+    top: 0;
+    left: 0;
+}
+.aeroplane{
+position:fixed;
+height:100px;
+width:100px;
+animation: aeroplane 11s linear ;
+left:10px;
+bottom:0px;
+
+}
+@keyframes aeroplane{
+  0% {
+    transform: translate(0, 0) rotate(-35deg);
+  }
+  100% {
+    transform: translate(100vw, -100vh) rotate(-35deg);
+  }
+}
+.aeroplane2{
+position:fixed;
+height:100px;
+width:100px;
+animation: aeroplane2 11s linear ;
+left:10px;
+top:0px;
+
+}
+@keyframes aeroplane2{
+  0% {
+    transform: translate(0, 0) rotate(35deg);
+  }
+  100% {
+    transform: translate(100vw, 100vh) rotate(35deg);
+  }
+}
+ .bus{
+  position: fixed;
+  width:100px;
+  height:80px;
+right:150px;
+bottom:10px;
+transform:skew(-10deg);
+animation:bus 11s linear 0s;
+ }
+  @keyframes bus{
+  0% {
+    transform: translate(0, 0) rotate(0deg) skew(-10deg);
+  }
+  16% {
+    transform: translate(-350px, 0) rotate(0deg) skew(-10deg);
+  }
+  18% {
+    transform: translate(-350px, 0) rotate(90deg) skew(-10deg); 
+  }
+  33% {
+    transform: translate(-350px, -500px) rotate(90deg) skew(-10deg);
+  }
+  35% {
+    transform: translate(-350px, -500px) rotate(0deg) skew(-10deg); 
+  }
+  50% {
+    transform: translate(-750px, -500px) rotate(0deg) skew(-10deg);
+  }
+  52% {
+    transform: translate(-750px, -500px) rotate(-90deg) skew(-10deg); 
+  }
+  66% {
+    transform: translate(-750px, 0) rotate(-90deg) skew(-10deg);
+  }
+  68% {
+    transform: translate(-750px, 0) rotate(0deg) skew(-10deg); 
+  }
+  83% {
+    transform: translate(-1150px, 0) rotate(0deg) skew(-10deg);
+  }
+  85% {
+    transform: translate(-1150px, 0) rotate(90deg) skew(-10deg); 
+  }
+  100% {
+    transform: translate(-1150px, -450px) rotate(90deg) skew(-10deg);
+  }
+}
