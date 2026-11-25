@@ -7,6 +7,12 @@
     transform:translate(200px ,200px);
     animation:why 6s ease-in-out  infinite alternate-reverse;
 }
+.hide{
+     border:3px solid rgb(228, 38, 38);
+    background-color: rgb(0, 174, 255);
+    padding:20px;
+    margin:50px;
+}
 /* @media (min-width:600px){
     .cont{background-color: yellow;}
     .cont{color:aqua;}
@@ -18,10 +24,11 @@
     .cont{height:600px;}
 
 } */
- @media only screen and (min-width:760px){
+ @media only screen and (min-width:600px){
       .cont{background-color: yellow;}
     .cont{color:aqua;}
     .cont{height:200px;}
+
     @keyframes why{
   to {background-color: rgb(251, 0, 255); translate:200px 250px;}
 
@@ -31,8 +38,10 @@
       .cont{background-color: rgb(0, 229, 255);}
     .cont{color:black;}
     .cont{height:400px;}
+        .hide{display:none;}
       @keyframes why{
   to {background-color: rgb(174, 255, 0); translate:200px 150px;}
 
     }
  }
+ 
