@@ -5,8 +5,9 @@
     height:400px;
     width:400px;
     transform:translate(200px ,200px);
+    animation:why 6s ease-in-out  infinite alternate-reverse;
 }
-@media (min-width:600px){
+/* @media (min-width:600px){
     .cont{background-color: yellow;}
     .cont{color:aqua;}
     .cont{height:200px;}
@@ -16,4 +17,22 @@
     .cont{color:rgb(200, 0, 255);}
     .cont{height:600px;}
 
-}
+} */
+ @media only screen and (min-width:760px){
+      .cont{background-color: yellow;}
+    .cont{color:aqua;}
+    .cont{height:200px;}
+    @keyframes why{
+  to {background-color: rgb(251, 0, 255); translate:200px 250px;}
+
+    }
+ }
+ @media only screen and (min-width:768px){
+      .cont{background-color: rgb(0, 229, 255);}
+    .cont{color:black;}
+    .cont{height:400px;}
+      @keyframes why{
+  to {background-color: rgb(174, 255, 0); translate:200px 150px;}
+
+    }
+ }
